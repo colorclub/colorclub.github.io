@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>KanWave</title>
+
+	<!--[if le IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="scripts/respond.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link href='https://fonts.googleapis.com/css?family=Righteous|Nova+Square' rel='stylesheet' type='text/css'>
+    <link href="styles/app.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+  <div id="mySidenav" class="sidenav">
+    <iframe src="https://embed.spotify.com/?uri=spotify:album:7gsWAHLeT0w7es6FofOXk1&view=coverart" frameborder="0" allowtransparency="true"></iframe>
+    <iframe src="https://embed.spotify.com/?uri=spotify:album:6Fr2rQkZ383FcMqFyT7yPr&view=coverart" frameborder="0" allowtransparency="true"></iframe>
+    <iframe src="https://embed.spotify.com/?uri=spotify:album:2UJwKSBUz6rtW4QLK74kQu&view=coverart" frameborder="0" allowtransparency="true"></iframe>
+    <iframe src="https://embed.spotify.com/?uri=spotify:album:712VoD72K500yLhhgqCyVe&view=coverart" frameborder="0" allowtransparency="true"></iframe>
+    <iframe src="https://embed.spotify.com/?uri=spotify:album:0ptlfJfwGTy0Yvrk14JK1I&view=coverart" frameborder="0" allowtransparency="true"></iframe>
+    <iframe src="https://embed.spotify.com/?uri=spotify:album:64aKkqxc3Ur2LYIKeS5osS&view=coverart" frameborder="0" allowtransparency="true"></iframe>
+  </div>
+  <!-- <span onclick="openNav()"></span> -->
+
+<div id = "headrow">
+  <img src = "images/kanye_west.png" class = "head">
+  <img src = "images/drake.png" class = "head">
+  <img src = "images/john_mayer.png" class = "head">
+  <img src = "images/beyonce.png" class = "head">
+  <img src = "images/miley_cyrus.png" class = "head">
+  <img src = "images/justin_bieber.png" class = "head">
+</div>
+
+  <div class="wrapper">
+    <canvas id="visual" class="visualizer" width="640" height="200"></canvas>
+    <canvas id="visual_2" class="visualizer2" width="640" height="200"></canvas>
+  </div>
+
+    <!-- Below is your custom application script -->
+
+    <script src="scripts/wave.js"></script>
+    <script type="scripts/drawer.js"></script>
+    <!-- <script src="scripts/wave_2.js"></script> -->
+
+    <!-- greensock library  -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+
+    <!-- vanilla js file  -->
+    <script src="script.js"></script>
+    <script src="scripts/spotifydrawer.js"></script>
+  </body>
+</html>
