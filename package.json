@@ -1,0 +1,21 @@
+{
+  "name": "colorclub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon svr/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sean Ho <sean.ho.0103@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "1.6.2",
+    "body-parser": "1.16.1",
+    "express": "4.14.1",
+    "finalhandler": "1.0.0",
+    "nodemon": "^1.11.0",
+    "path": "0.12.7",
+    "request": "2.79.0"
+  }
+}
